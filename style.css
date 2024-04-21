@@ -26,7 +26,6 @@ h2 {
 .container {
     padding: 20px;
     width: 400px;
-    max-width: 100%;
 }
 #length {
     color: #fff;
@@ -110,11 +109,9 @@ i:hover {
     background-color: rgba(0, 0, 0, 0.932);
     border-radius: 3px;
 }
-/* Style for checkboxes */
 .setting input[type="checkbox"] {
     display: none;
 }
-/* Custom checkbox design */
 .setting .checkbox-wrapper {
     display: inline-block;
     position: relative;
@@ -138,19 +135,16 @@ i:hover {
 }
 .setting input[type="checkbox"]:checked + .checkbox-wrapper:before {
 background-color: green;}
-/* Dropdown styling */
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-select {
     padding: 10px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.932);
     cursor: pointer;
 }
-
 .dropdown-options {
     display: none;
     position: absolute;
@@ -161,13 +155,11 @@ background-color: green;}
     max-height: 200px;
     width: 100%;
 }
-
 .dropdown-options-item {
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .dropdown-options-item:hover {
     background-color: #f2f2f2;
     color: rgba(0, 0, 0, 0.932);

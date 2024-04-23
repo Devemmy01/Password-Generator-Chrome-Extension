@@ -34,8 +34,11 @@ clipboardEl.addEventListener('click', () => {
     const password = resultEl.innerText;
     
     if(!password){
+        alert("Sorry, no password generated!")
+
         return;
     }
+
     textarea.value = password;
     document.body.appendChild(textarea);
     textarea.select();
@@ -65,6 +68,7 @@ document.addEventListener('click', (event) => {
 
 // Generate password based on selected strength
 function generatePassword(lower, upper, number, symbol, length, strength) {
+    
     let chars = '';
     let password = '';
 

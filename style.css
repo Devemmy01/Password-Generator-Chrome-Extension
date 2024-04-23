@@ -14,7 +14,7 @@ body {
     background-image: linear-gradient(rgba(10, 9, 9, 0.918), rgba(65, 65, 65, 0.829)),url(./pas.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     color: #fff;
 }
 h2 {
@@ -105,9 +105,12 @@ i:hover {
     justify-content: space-between;
     align-items: center;
     margin: 5px 0;
-    padding: 15px 10px;
+    padding: 7px 10px;
     background-color: rgba(0, 0, 0, 0.932);
     border-radius: 3px;
+    border: solid 0.6em rgba(0, 0, 0, 0.932);
+    border-left-color: green;
+    width: auto;
 }
 .setting input[type="checkbox"] {
     display: none;
